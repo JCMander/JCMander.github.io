@@ -1,3 +1,5 @@
+import { theme } from "../theme";
+
 export const Footer = () => {
     return (
         <div style={{
@@ -5,7 +7,7 @@ export const Footer = () => {
             bottom: 0,
             left: 0,
             width: '100%',
-            backgroundColor: '#ffd1fd',
+            backgroundColor: theme.primaryColor,
             textAlign: 'center',
             padding: '20px 0px'
         }}>

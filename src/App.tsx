@@ -12,7 +12,7 @@ import { Item } from './components/Item';
 
 function App() {
   return (
-    <div style={{ width: '100%' }}>
+    <div className="App">
       {/* <BrowserRouter>
       <Routes>
           <Route path="/item">
@@ -23,7 +23,7 @@ function App() {
           </Route>
         </Routes>
         </BrowserRouter> */}
-      <Menu />
+      {/* <Menu /> */}
       <Home />
       <Footer />
     </div>
