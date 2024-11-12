@@ -27,7 +27,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "add-domain": "echo \"tamarabakesandtreats.co.uk\ntamarabakesandtreats.com\" > build/CNAME",
+    "add-domain": "echo \"tamarabakesandtreats.co.uk\" > build/CNAME",
     "predeploy": "npm run build",
     "deploy": "npm run add-domain && gh-pages -d build"
   },
