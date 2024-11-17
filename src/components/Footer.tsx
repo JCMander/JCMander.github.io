@@ -9,14 +9,13 @@ export const Footer = () => {
             width: '100%',
             backgroundColor: theme.primaryColor,
             textAlign: 'center',
-            padding: '20px 0px'
+            padding: '10px 0px'
         }}>
-            <p>
+            <div>
                 Email: tamarabakesandtreats@gmail.com
-            </p>
-            <p>
+                <br/>
                 Phone: +447949156913
-            </p>
+            </div>
         </div>
     )
 };

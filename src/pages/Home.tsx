@@ -1,6 +1,6 @@
 import { BrowserView, isMobile, MobileView } from "react-device-detect";
 import logo from "../assets/logo.jpeg";
-import { theme } from "../theme";
+import { PageLink } from "../components/PageLink";
 
 const Home = () => {
     return (
@@ -17,7 +17,8 @@ const Home = () => {
             <BrowserView>
                 <img src={logo} alt="Logo" width={500} />
             </BrowserView>
-            <h1 style={{ marginTop: '5%', color: theme.primaryColor }}>Coming soon...</h1>
+            <PageLink text="Menu" url="menu" />
+            {/* <PageLink text="Place order" url="order" /> */}
         </div>
     )
 }
