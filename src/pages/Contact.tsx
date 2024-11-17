@@ -1,12 +1,23 @@
-import { theme } from "../theme"
+import { BrowserView, MobileView } from "react-device-detect"
+import logo from "../assets/logo.jpeg";
+import { theme } from "../theme";
 
 export const Contact = () => {
     return (
         <div style={{
-            textAlign: 'center',
-            padding: '10px 0px'
+            display: 'block',
+            margin: 'auto',
+            width: '100%',
+            paddingTop: '2%',
+            textAlign: 'center'
         }}>
-            <div>
+            <MobileView>
+                <img src={logo} alt="Logo" width={'100%'} />
+            </MobileView>
+            <BrowserView>
+                <img src={logo} alt="Logo" width={500} />
+            </BrowserView>
+            <div style={{ marginTop: 40, fontSize: 26, color: theme.primaryColor }}>
                 Email: tamarabakesandtreats@gmail.com
                 <br/>
                 Phone: +447949156913
