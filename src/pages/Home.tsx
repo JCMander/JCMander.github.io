@@ -1,6 +1,9 @@
-import { BrowserView, isMobile, MobileView } from "react-device-detect";
+import { BrowserView, MobileView } from "react-device-detect";
+import { ProductCarousel } from "../components/ProductCarousel";
+import logoName from "../assets/logo-name.png";
 import logo from "../assets/logo.jpeg";
-import { PageLink } from "../components/PageLink";
+import menu from "../assets/menu.png";
+import { Col, Row } from "react-bootstrap";
 
 const Home = () => {
     return (
@@ -12,13 +15,22 @@ const Home = () => {
             textAlign: 'center'
         }}>
             <MobileView>
-                <img src={logo} alt="Logo" width={'100%'} />
+                <img src={logoName} alt="logo" width={'80%'} style={{ marginBottom: 10 }} />
+                <ProductCarousel width={'90%'} />
             </MobileView>
             <BrowserView>
-                <img src={logo} alt="Logo" width={500} />
+                <div style={{ width: '95%' }}>
+                    <img src={logoName} alt="logo" width={'20%'} />
+                    <Row>
+                        <Col>
+                            <img src={menu} alt="menu" width={'40%'} style={{ marginBottom: 10 }} />
+                        </Col>
+                        <Col>
+                            <ProductCarousel width={600} />
+                        </Col>
+                    </Row>
+                </div>
             </BrowserView>
-            <PageLink text="Menu" url="menu" />
-            {/* <PageLink text="Place order" url="order" /> */}
         </div>
     )
 }
