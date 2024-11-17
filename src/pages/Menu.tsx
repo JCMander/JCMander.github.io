@@ -1,5 +1,5 @@
 import { BrowserView, MobileView } from "react-device-detect";
-import menu from "../assets/Menu.png";
+import menu from "../assets/menu.png";
 
 export const Menu = () => {
     return (
