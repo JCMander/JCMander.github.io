@@ -1,0 +1,78 @@
+[
+    {
+        "name": "Cookie Pie (slice)",
+        "price": 4.5,
+        "flavours": [
+            "Biscoff",
+            "Oreo",
+            "Mars bar",
+            "Crunchie",
+            "Areo",
+            "Twix",
+            "Twirl"
+        ]
+    },
+    {
+        "name": "Mini Cookie Pie",
+        "price": 10,
+        "flavours": [
+            "Biscoff",
+            "Oreo",
+            "Mars bar",
+            "Crunchie",
+            "Areo",
+            "Twix",
+            "Twirl"
+        ]
+    },
+    {
+        "name": "Stuffed Cookie (slice)",
+        "price": 4.5,
+        "flavours": [
+            "Oreo",
+            "Mars bar",
+            "Crunchie",
+            "Areo",
+            "Twix",
+            "Twirl"
+        ]
+    },
+    {
+        "name": "Cookie",
+        "price": 4.5,
+        "flavours": [
+            "Chocolate chip",
+            "White Chocolate chip",
+            "Double chocolate chip"
+        ]
+    },
+    {
+        "name": "Brownie",
+        "price": 4.5,
+        "flavours": [
+            "Chocolate chip",
+            "Double chocolate chip"
+        ]
+    },
+    {
+        "name": "Stuffed Brownie (slice)",
+        "price": 4.5,
+        "flavours": [
+            "Oreo",
+            "Mars bar",
+            "Crunchie",
+            "Twirl"
+        ]
+    },
+    {
+        "name": "Tray Cake (slice)",
+        "price": 4.5,
+        "flavours": [
+            "Old school sprinkle cake",
+            "Chocolate cake (with milk chocolate ganache)",
+            "Coconut cake",
+            "Lemon drizzle",
+            "Victoria sponge"
+        ]
+    }
+]

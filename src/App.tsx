@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './pages/Home';
-import { Menu } from './components/Menu';
+import { NavBar } from './components/NavBar';
 import { Footer } from './components/Footer';
 import {
   BrowserRouter,
@@ -8,24 +8,22 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import { Item } from './components/Item';
+import { Menu } from './pages/Menu';
+import { Contact } from './pages/Contact';
+import { Order } from './pages/Order';
 
 function App() {
   return (
     <div className="App">
-      {/* <BrowserRouter>
-      <Routes>
-          <Route path="/item">
-            <Item />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/menu" element={<Menu />} />
+          {/* <Route path="/order" element={<Order />} /> */}
+          <Route path="/contact" element={<Contact />} />
         </Routes>
-        </BrowserRouter> */}
-      {/* <Menu /> */}
-      <Home />
-      <Footer />
+      </BrowserRouter>
     </div>
   );
 }
